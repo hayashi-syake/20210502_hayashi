@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社TECH</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="" class="header-top-logo">TECH</a>
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li><a href="index.html" class="header-nav-list-link">ホーム</a></li>
+        <li><a href="service.html" class="header-nav-list-link">事業内容</a></li>
+        <li><a href="news.html" class="header-nav-list-link">ニュース</a></li>
+        <li><a href="blog.html" class="header-nav-list-link">社員ブログ</a></li>
+        <li><a href="company.html" class="header-nav-list-link">会社概要</a></li>
+        <li><a href="recruit.html" class="header-nav-list-link">採用情報</a></li>
+        <li><a href="contact.html" class="header-nav-list-link">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- contact-page -->
+
+    <div class="view">
+      <p class="contact-view-ttl">お問い合わせ</p>
+    </div>
+
+    <div class="contact-page">
+      <div class="contact-box">
+        <form action="detail.html" method="GET">
+          <div class="contact-box-content">
+            <label for="company-name">会社名</label><br>
+            <input class="contact-box-content-item" type="text" name="company-name" id="company-name">
+          </div>
+          <div class="contact-box-content">
+            <label for="name">お名前<span>*</span></label><br>
+            <input class="contact-box-content-item" type="text" name="name" id="name">
+          </div>
+          <div class="contact-box-content">
+            <label for="email">メールアドレス<span>*</span></label><br>
+            <input class="contact-box-content-item" type="email" name="email" id="email">
+          </div>
+          <div class="contact-box-content">
+            <label for="comment">お問い合わせ内容<span>*</span></label><br>
+            <textarea class="contact-box-content-item" name="comment" id="comment" cols="30" rows="10"></textarea>
+          </div>
+          <input type="submit" value="お申し込み" class="contact-page-btn">
+        </form>
+      </div>
+    </div>
+
+    <!-- contact
+    <div class="contact">
+      <div class="contact-wrap">
+        <div class="contact-wrap-ttl">お問い合わせ</div>
+        <p class="contact-wrap-text">お仕事のご依頼や採用に関してはお問い合わせにて承っております。</p>
+        <div class="contact-btn"><a href="">お問い合わせ</a></div>
+      </div>
+    </div> -->
+
+    <!-- footer -->
+
+    <div class="footer">
+      <div class="footer-flex">
+        <small class="footer-copyr">&copy 2020 TECH inc.</small>
+        <nav class="footer-nav">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item"><a href="index.html">ホーム</a></li>
+          <li class="footer-nav-item"><a href="service.html">事業内容</a></li>
+          <li class="footer-nav-item"><a href="news.html">ニュース</a></li>
+          <li class="footer-nav-item"><a href="blog.html">社員ブログ</a></li>
+          <li class="footer-nav-item"><a href="company.html">会社概要</a></li>
+          <li class="footer-nav-item"><a href="recruit.html">採用情報</a></li>
+          <li class="footer-nav-item"><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+        </nav>
+      </div>
+    </div>
+
+  </main>
+</body>
+
+</html>
