@@ -241,7 +241,7 @@ a {
   margin: 50px auto;
 }
 .service-btn:hover {
-  background: rgb(250, 132, 132);
+  opacity: 0.5;
 }
 
 /* news */
@@ -274,7 +274,7 @@ a {
 }
 
 .news-btn:hover {
-  background: rgb(250, 132, 132);
+  opacity: 0.5;
 }
 
 .news-top {
@@ -293,7 +293,7 @@ a {
 }
 
 .news-item-list:hover {
-  background-color: rgb(131, 131, 131);
+  opacity: 0.5;
 }
 
 .news-item-list-date {
@@ -336,6 +336,10 @@ a {
   width: 100%;
 }
 
+.blog-flex-card-img:hover {
+  opacity: 0.5;
+}
+
 .blog-flex-card-content {
   padding: 10px 0;
   flex-wrap: wrap;
@@ -367,7 +371,7 @@ a {
 }
 
 .bottom-flex-company:hover {
-  background: rgb(250, 132, 132);
+  opacity: 0.5;
 }
 
 .bottom-flex-recruit {
@@ -378,7 +382,7 @@ a {
 }
 
 .bottom-flex-recruit:hover {
-  background-color: rgb(59, 59, 59);
+  opacity: 0.5;
 }
 
 .bottom-flex-company-ttl,
@@ -424,7 +428,7 @@ a {
 }
 
 .contact-btn:hover {
-  background: rgb(250, 132, 132);
+  opacity: 0.5;
 }
 
 /* footer */
@@ -561,7 +565,7 @@ a {
 }
 
 .news-item-list-page:hover {
-  color: rgb(131, 131, 131);
+  opacity: 0.5;
 }
 
 /* blog-page */
